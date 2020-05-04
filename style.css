@@ -1,0 +1,259 @@
+html{
+  background-image: linear-gradient(#66BC05,#018250);
+}
+
+.body{
+  font-family: Verdana;
+  
+}
+
+.container{
+  height: 1920px;
+  width: 1580px;
+  font-family: Verdana;
+  
+}
+
+.header{
+  height: 150px;
+ 
+}
+/* header container styling*/
+.headercontain{
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(90deg,#01825181,#01825100);
+  display: flex;
+}
+/*header name styling */
+.naming{
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 100px;
+  padding-top: 10px;
+  color: white;
+  font-weight: 800;
+
+}
+/* Navigation Buttons Stylling*/
+.nav{
+  width: 30%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 140px;
+  padding-top: 8.55px;
+}
+.navbox1{
+  height: 10px;
+  min-width: 20%;
+  background-image: linear-gradient(45deg,#01825181,#018251a9);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color:rgba(0, 0,0,0.3);
+}
+
+.navbox2{
+  height: 10px;
+  min-width: 20%;
+  background-image: linear-gradient(45deg,#01825181,#018251a9);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3);
+}
+
+.navbox3{
+  height: 10px;
+  min-width: 20%;
+  background-image: linear-gradient(45deg,#01825181,#018251a9);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbox4{
+  height: 10px;
+  min-width: 20%;
+  background-image: linear-gradient(45deg,#01825181,#018251a9);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3);
+
+}
+/*navboxes ended*/
+
+/*navbox hover*/
+.navbox1:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+.navbox2:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+.navbox3:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+.navbox4:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+
+/*navbox hover ends*/
+
+.main{
+  height: 400px;
+  display: flex;
+}
+
+.txt{
+  height: 400px;
+  flex: 2;
+}
+.headline{
+  
+}
+
+h2{
+  text-align: center;
+  color: White;
+  font-size: 2rem;
+  font-family: Verdana;
+  padding-right: 540px;
+  padding-bottom: 5px;
+}
+
+h1{
+  text-align:center;
+  color: White;
+  font-size: 4rem;
+  font-family: Verdana;
+  line-height:60px;
+  padding-right: 380px;
+  font-weight: 300;
+}
+
+.txt p{
+  padding-left: 200px;
+  padding-right: 350px;
+  color: white;
+  line-height: 1.5rem;
+  font-family: Verdana;
+  
+}
+
+
+.txtimg{
+  height: 400px;
+  flex: 1;
+  align-items: center;
+ 
+}
+
+.txtimg img{
+ 
+
+}
+
+.cards{
+  height: 260px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1{
+  width: 30.6%;
+  background-image: linear-gradient(45deg,#01825181,#018250);
+  padding-left: 40px;
+  border-radius: 25px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3)
+
+}
+
+.card1 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 110px;
+  padding-right: 40px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.card1:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+
+.card2{
+  width: 30.6%;
+  background-image: linear-gradient(45deg,#01825181,#018250);
+  border-radius: 25px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3)
+}
+
+.card2 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 110px;
+  padding-right: 40px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.card2:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+
+
+.card3{
+  width: 30.6%;
+  background-image: linear-gradient(45deg,#01825181,#018250);
+  border-radius: 25px;
+  text-align: center;
+  color: rgba(0, 0,0,0.3)
+}
+
+.card3:hover {
+  background-color:#018250;
+  transition-duration: 1s;
+
+}
+
+.card3 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 110px;
+  padding-right: 40px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.headline{
+  background-image:linear-gradient(90deg,#01825121,#018250,#01825100,#01825100);
+  align-items: center;
+}
+
+
+
+
+
+
+
